@@ -1,0 +1,397 @@
+*{
+	border:none;
+}
+
+body{
+	background-image:url("Imagens/fundocederj.jpg");
+}
+
+/*Página de Login -----------------------------------------------------------*/
+.login{
+	
+	width:600px;
+	height:400px;
+	margin-top:230px;
+	
+}
+
+.camposLogin{
+	width:400px;
+	height:40px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+
+
+/*Padrão botão enviar --------------------------------------------------------------------*/
+.botaoEnviar{
+	background-color:#f19800;
+	width:400px;
+	height:35px;
+	color:#FFFFFF;
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*Padrão botão adicionar -----------------------------------------------------------------*/
+.botaoAdicionar{
+	background-color:green;
+	border-radius:20px;
+	width:100px;
+	height:25px;
+	color:#FFFFFF;
+	margin-left:20px;
+	border:none;
+}
+/*----------------------------------------------------------------------------------------*/
+
+.botaoRemoveHorario{
+	background-color:#f19800;
+	border-radius:20px;
+	width:100px;
+	height:25px;
+	color:#FFFFFF;
+	margin-left:20px;
+	border:none;
+}
+
+
+.materia{
+	width:600px;
+	height:100px;
+	margin-top:130px;
+}
+.materiaProf{
+	width:600px;
+	color:white;
+	font-family:arial;
+	
+}
+
+.optionMateria{
+	width:250px;
+}
+
+.titulo{
+	margin-left:7px;
+	font-size:24px;
+}
+
+.listaLeitos{
+	height:250px;
+	border-radius: 20px;
+	margin-right:40px;
+	padding-left:40px;
+	width:90%;
+	box-shadow:9px 7px 5px rgba(50, 50, 50, 0.77);
+	overflow: overlay;
+}
+
+.dataTutoria{
+	border-radius: 20px;
+	height:250px;
+	width:100%;
+	box-shadow:9px 7px 5px rgba(60, 60, 60, 0.77);
+}
+
+.resultadoEscolhas{
+	border-radius: 20px;
+	height:250px;
+	width:97.9%;
+	box-shadow:9px 7px 5px rgba(60, 60, 60, 0.77);
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	color:white;
+	font-family:arial;
+	overflow: overlay;
+}
+
+#result{
+	width:100%;
+	height:auto;
+}
+
+.textarea{
+	width:400px;
+	max-width:600px;
+	min-width:400;
+	max-height:100px;
+	min-height:34px;
+	
+}
+
+.escolhaHorario{
+	width:600px;
+	height:100px;
+	margin-top:80px;
+}
+
+.divEscolhas{
+	width:auto;
+	min-width:60%;
+	padding-bottom:3px;
+	position:relative;
+	height:auto;
+	margin-bottom:5px;
+	display:inline-block;
+	border-bottom:1px solid white;
+}
+
+.tds{
+	width:100%;
+	text-align:center;
+	color:white !important;
+	font-family:arial;
+}
+
+
+
+.link{
+
+}
+
+#zoom:hover{
+  box-shadow: 0px 0px 90px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+/*----------------------------------NOVO ESTILO-------------------------------------------*/
+
+
+
+
+
+.divCadastro{
+	border-radius: 20px;
+	height:280px;
+	width:95%;
+	box-shadow:9px 7px 5px rgba(60, 60, 60, 0.77);
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	font-family:arial;
+}
+
+.divCadastro2{
+	border-radius: 20px;
+	height:280px;
+	width:95%;
+	box-shadow:9px 7px 5px rgba(60, 60, 60, 0.77);
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	font-family:arial;
+}
+
+.labelsCadastro{
+	float:left;
+	padding-left:40px;
+}
+
+.inputs{
+	float:left;
+}
+
+.selectLeitos{
+	float:left;
+	margin-left:40px;
+	visibility:hidden;
+}
+
+.removeDoLeito{
+	width:50px;
+	height:20px;
+}
+
+.tdsLeitos{
+	width:50%;
+	text-align:center;
+	color:white !important;
+	font-family:arial;
+}
+
+.listaPacientesCadastrados{
+	text-align:center;
+	height:250px;
+	border-radius: 20px;
+	margin-right:40px;
+	padding-left:40px;
+	width:100%;
+	box-shadow:9px 7px 5px rgba(50, 50, 50, 0.77);
+	overflow: overlay;
+	color:white;
+}
+
+.tdsCadastroPaciente{
+	width:400px;
+	text-align:center;
+	color:white !important;
+	font-family:arial;
+}
+
+.tdsReceituario{
+	width:500px;
+	height:320px;
+	text-align:center;
+	color:white !important;
+	font-family:arial;
+}
+
+.receituario{
+	border-radius: 20px;
+	height:100%;
+	width:100%;
+	box-shadow:9px 7px 5px rgba(60, 60, 60, 0.77);
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	font-family:arial;
+	margin-left:50px;
+}
+
+.listaReceituario{
+	border-radius: 20px;
+    height: 350px;
+    width: 90%;
+    box-shadow: 9px 7px 5px rgb(60 60 60 / 77%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: arial;
+}
+
+.tdsListaReceituario{
+	width:100%;
+	height:350px;
+	text-align:center;
+	color:white !important;
+	font-family:arial;
+}
+
+
+#zoom1:hover{
+  box-shadow: 0px 0px 90px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+#zoom2:hover{
+  box-shadow: 0px 0px 90px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+#teste1{
+	visibility: hidden;
+}
+
+
+
+.admEscolha{
+	height:100%;
+	border-radius: 20px;
+	color:white;
+	font-family:arial;
+	font-size: 24px;
+}
+.admCadastro{
+	border-radius: 20px;
+	height:280px;
+	width:80%;
+	box-shadow:9px 7px 5px rgba(60, 60, 60, 0.77);
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	font-family:arial;
+	padding-left:60px;
+	
+}
+
+.admCadastrado{
+	border-radius: 20px;
+	height:280px;
+	width:80%;
+	box-shadow:9px 7px 5px rgba(60, 60, 60, 0.77);
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	font-family:arial;
+	padding-left:60px;
+}
+
+.botoesInicio{
+	width: 340px;
+    height: 40px;
+	background-color: #f19800;
+	color:white;
+	font-family:arial;
+	border-radius: 20px;
+}
+
+.botaoVoltar{
+	float:right;
+	background-color:#f19800;
+	width:100px;
+	height:35px;
+	color:#FFFFFF;
+	border-radius: 20px;
+}
+
+.botaoVoltarSolo{
+	float:right;
+	background-color:#f19800;
+	width:100px;
+	height:35px;
+	color:#FFFFFF;
+	border-radius: 20px;
+}
+
+.bdInicio{
+	color:white;
+	font-family:arial;
+}
+
+.sairAdm{
+	float:right;
+	background-color:#f19800;
+	width:100px;
+	height:35px;
+	color:#FFFFFF;
+	border-radius: 20px;
+}
+.voltaAdm{
+	float:left;
+	background-color:#f19800;
+	width:100px;
+	height:35px;
+	color:#FFFFFF;
+	border-radius: 20px;
+}
+
+.tabLista{
+	color:white;
+	font-family:arial;
+}
